@@ -37,3 +37,4 @@ C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp.cs
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp.pdb
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\System.Data.dll
+C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\DiscUtils.dll

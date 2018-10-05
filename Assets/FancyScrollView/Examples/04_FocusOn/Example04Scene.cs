@@ -61,6 +61,16 @@ namespace FancyScrollView
 		}
 
 
+		public string GetNameFromID(string PS2ID,DataTable dt)
+		{
+			for (int i = 0; i < dt.Rows.Count; i++) {
+				if (dt.Rows [i] ["PS2ID"].ToString () == PS2ID) {
+					return dt.Rows [i] ["PS2Title"].ToString ();
+				}
+			}
+			return "";
+		}
+
         void Start()
         {
 			/*Load PS2 Database*/
@@ -107,15 +117,24 @@ namespace FancyScrollView
 				lstofisos.Add(item.FullName);
 			}
 
+			cellData = new List<Example04CellDto> ();
+
             for (int i = 0; i < lstofisos.Count; i++)
             {
                 //read udb data 
                 string id = GetPS2ID(lstofisos[i]);
+				var exmapleitem = new Example04CellDto ();
+				exmapleitem.PS2ID = id;
+				exmapleitem.Message = GetNameFromID (id,dttemp);
+				exmapleitem.PS2_Title = exmapleitem.Message;
+				exmapleitem.Region = "";
+				cellData.Add (exmapleitem);
             }
 
-			cellData = Enumerable.Range(0, 20)
-                .Select(i => new Example04CellDto { Message = "Cell " + i })
-                .ToList();
+
+
+
+
             context = new Example04ScrollViewContext();
             context.OnSelectedIndexChanged = HandleSelectedIndexChanged;
             context.SelectedIndex = 0;
@@ -142,7 +161,7 @@ namespace FancyScrollView
 
                 //mine the start and end of the string
                 int start = fullstring.ToString().IndexOf(Is) + Is.Length;
-                int end = fullstring.ToString().IndexOf(Ie, start);
+               int end = fullstring.ToString().IndexOf(Ie, start);
                 if (end > start)
                 {
                     string PS2Id = fullstring.ToString().Substring(start, end - start);
@@ -154,7 +173,7 @@ namespace FancyScrollView
                     }
                     else
                     {
-                        Console.WriteLine("Could not load PS2 ID");
+                       Console.WriteLine("Could not load PS2 ID");
                         return "";
                     }
                 }
