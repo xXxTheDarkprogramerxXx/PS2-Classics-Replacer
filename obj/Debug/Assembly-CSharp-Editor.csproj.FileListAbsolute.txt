@@ -2,7 +2,6 @@ C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\Assembly-CSha
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\nunit.framework.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\System.Data.dll
-C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\System.Data.Linq.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\UnityEditor.dll
@@ -67,3 +66,4 @@ C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\UnityEditor.i
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\3deEchelon\Documents\PS2 Classics Replacer\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\3deEchelon\Documents\PS2 Classics Replacer\Temp\bin\Debug\DiscUtils.dll

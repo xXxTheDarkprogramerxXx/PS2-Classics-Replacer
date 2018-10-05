@@ -39,7 +39,7 @@ namespace FancyScrollView
         /// <param name="itemData"></param>
         public override void UpdateContent(Example04CellDto itemData)
         {
-            message.text = itemData.Message;
+			message.text = itemData.Message;
 
             if (context != null)
             {

@@ -44,7 +44,7 @@ namespace FancyScrollView
 
         void HandleSelectedIndexChanged(int index)
         {
-            selectedItemInfo.text = String.Format("Selected item info: index {0}", index);
+			selectedItemInfo.text = String.Format(cellData[index].PS2_Title);
         }
 
         void Awake()
@@ -64,8 +64,18 @@ namespace FancyScrollView
 		public string GetNameFromID(string PS2ID,DataTable dt)
 		{
 			for (int i = 0; i < dt.Rows.Count; i++) {
-				if (dt.Rows [i] ["PS2ID"].ToString () == PS2ID) {
+				if (dt.Rows[i]["PS2ID"].ToString() == PS2ID) {
 					return dt.Rows [i] ["PS2Title"].ToString ();
+				}
+			}
+			return "";
+		}
+
+		public string GetRegionFromID(string PS2ID,DataTable dt)
+		{
+			for (int i = 0; i < dt.Rows.Count; i++) {
+				if (dt.Rows[i]["PS2ID"].ToString() == PS2ID) {
+					return dt.Rows [i] ["Region"].ToString ();
 				}
 			}
 			return "";
@@ -121,13 +131,13 @@ namespace FancyScrollView
 
             for (int i = 0; i < lstofisos.Count; i++)
             {
-                //read udb data 
+                //read asb data 
                 string id = GetPS2ID(lstofisos[i]);
 				var exmapleitem = new Example04CellDto ();
 				exmapleitem.PS2ID = id;
-				exmapleitem.Message = GetNameFromID (id,dttemp);
-				exmapleitem.PS2_Title = exmapleitem.Message;
-				exmapleitem.Region = "";
+				exmapleitem.Message = id;// (id,dttemp);
+				exmapleitem.PS2_Title = GetNameFromID(id,dttemp);
+				exmapleitem.Region = GetRegionFromID(id,dttemp);
 				cellData.Add (exmapleitem);
             }
 
@@ -168,7 +178,7 @@ namespace FancyScrollView
 
                     if (PS2Id != string.Empty)
                     {
-                        return PS2Id.Replace(".", "");
+						return PS2Id.Replace(".", "").Replace("_","-");
                         Console.WriteLine("PS2 ID Found" + PS2Id);
                     }
                     else
