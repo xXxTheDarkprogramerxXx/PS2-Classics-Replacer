@@ -4,19 +4,19 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: 78c9352039bd9a74fa9f976b7c19765c
+  productGUID: 6a27e7940196b854d8ae2aaa561e94be
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: TheDarkprogramer
-  productName: PS2 Classics Replacer
+  companyName: The Darkprogramer
+  productName: Ps2 Classics Manager
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -46,7 +46,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
@@ -245,7 +245,14 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: PS4
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 17782caca816ffb4cba758a98cdfe4b4, type: 3}
+      m_Width: 512
+      m_Height: 512
+      m_Kind: 0
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
@@ -410,25 +417,25 @@ PlayerSettings:
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
-  ps4ParentalLevel: 11
-  ps4ContentID: ED1633-NPXX51362_00-0000000000000000
+  ps4ParentalLevel: 1
+  ps4ContentID: ED1234-XDPX20002_00-0000000000000000
   ps4Category: 0
-  ps4MasterVersion: 01.00
+  ps4MasterVersion: 01.02
   ps4AppVersion: 01.00
-  ps4AppType: 0
+  ps4AppType: 3
   ps4ParamSfxPath: 
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
   ps4VideoOutReprojectionRate: 60
-  ps4PronunciationXMLPath: 
-  ps4PronunciationSIGPath: 
-  ps4BackgroundImagePath: 
-  ps4StartupImagePath: 
+  ps4PronunciationXMLPath: pronunciation.xml
+  ps4PronunciationSIGPath: pronunciation.sig
+  ps4BackgroundImagePath: Splash.png
+  ps4StartupImagePath: Splash.png
   ps4SaveDataImagePath: 
   ps4SdkOverride: 
   ps4BGMPath: 
-  ps4ShareFilePath: 
+  ps4ShareFilePath: shareparam.json
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
   ps4NPtitleDatPath: 
@@ -451,7 +458,7 @@ PlayerSettings:
   playerPrefsSupport: 0
   restrictedAudioUsageRights: 0
   ps4UseResolutionFallback: 0
-  ps4ReprojectionSupport: 0
+  ps4ReprojectionSupport: 1
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
@@ -556,14 +563,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: PS2 Classics Replacer
+  metroPackageName: Windows Explore
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: PS2 Classics Replacer
+  metroApplicationDescription: Windows Explore
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 

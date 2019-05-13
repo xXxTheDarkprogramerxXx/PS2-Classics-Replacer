@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FancyScrollView/Examples/04_FocusOn/04_FocusOn.unity
+- path: Assets/Escenas/main.unity
   isLoaded: 1
   isActive: 1

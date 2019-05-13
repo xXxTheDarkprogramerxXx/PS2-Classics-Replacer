@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BC2C32D2-234F-AC10-5012-7C11A660016A}</ProjectGuid>
+    <ProjectGuid>{3C07013F-68A1-CB85-838A-CCA87F0FC56E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,28 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FancyScrollView\Examples\01_Basic\Example01CellDto.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\01_Basic\Example01Scene.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\01_Basic\Example01ScrollView.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\01_Basic\Example01ScrollViewCell.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\02_CellEventHandling\Example02CellDto.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\02_CellEventHandling\Example02Scene.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\02_CellEventHandling\Example02ScrollView.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\02_CellEventHandling\Example02ScrollViewCell.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\02_CellEventHandling\Example02ScrollViewContext.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\03_InfiniteScroll\Example03CellDto.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\03_InfiniteScroll\Example03Scene.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\03_InfiniteScroll\Example03ScrollView.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\03_InfiniteScroll\Example03ScrollViewCell.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\03_InfiniteScroll\Example03ScrollViewContext.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\04_FocusOn\Example04CellDto.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\04_FocusOn\Example04Scene.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\04_FocusOn\Example04ScrollView.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\04_FocusOn\Example04ScrollViewCell.cs" />
-     <Compile Include="Assets\FancyScrollView\Examples\04_FocusOn\Example04ScrollViewContext.cs" />
-     <Compile Include="Assets\FancyScrollView\Scripts\FancyScrollView.cs" />
-     <Compile Include="Assets\FancyScrollView\Scripts\FancyScrollViewCell.cs" />
-     <Compile Include="Assets\FancyScrollView\Scripts\ScrollPositionController.cs" />
+     <Compile Include="Assets\Codigos\Controlador.cs" />
+     <Compile Include="Assets\Codigos\ISubtitlesParser.cs" />
+     <Compile Include="Assets\Codigos\PS4VideoPlaybackSample.cs" />
+     <Compile Include="Assets\Codigos\SrtParser.cs" />
+     <Compile Include="Assets\Codigos\SsaParser.cs" />
+     <Compile Include="Assets\Codigos\SubtitleItem.cs" />
+     <None Include="Assets\Resources\PS2DB.txt" />
+     <None Include="Assets\Shaders\FMVTexture.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -101,13 +87,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="DiscUtils">
- <HintPath>C:/Users/3deEchelon/Documents/PS2 Classics Replacer/Assets/Plugin/DiscUtils.dll</HintPath>
+ <HintPath>C:/Users/3deEchelon/Downloads/PS4Player-master/PS4Player-master/PS2 Classics Placeholder/Assets/DiscUtils.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>C:/Users/3deEchelon/Documents/PS2 Classics Replacer/Assets/Plugin/System.Data.dll</HintPath>
+ <HintPath>C:/Users/3deEchelon/Downloads/PS4Player-master/PS4Player-master/PS2 Classics Placeholder/Assets/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.Data.Linq">
- <HintPath>C:/Users/3deEchelon/Documents/PS2 Classics Replacer/Assets/Plugin/System.Data.Linq.dll</HintPath>
+ <HintPath>C:/Users/3deEchelon/Downloads/PS4Player-master/PS4Player-master/PS2 Classics Placeholder/Assets/System.Data.Linq.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/3deEchelon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>

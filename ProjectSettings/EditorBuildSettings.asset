@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FancyScrollView/Examples/04_FocusOn/04_FocusOn.unity
-    guid: ff644be2cb161904ba6ec037baf31ad1
+    path: Assets/Escenas/main.unity
+    guid: 08aaf74db6445004a9023f0ec52dd4bb
