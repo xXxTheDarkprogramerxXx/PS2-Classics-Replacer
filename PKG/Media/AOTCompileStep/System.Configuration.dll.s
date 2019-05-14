@@ -21252,7 +21252,7 @@ System_Configuration_TimeSpanSecondsConverter_ConvertTo_System_ComponentModel_IT
 	.long .Lp_6 - . -4
 	.byte 190,96,0,0,0,191,70,1,0,2,232
 	.long .Lp_17 - . -4
-	.byte 190,118,0,0,0,235,239,0,0,0,0,0,0,0,0,208,18,99,65
+	.byte 190,118,0,0,0,235,239,44,36,76,139,0,0,0,0,208,18,99,65
 
 	.size System_Configuration_TimeSpanSecondsConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object_System_Type,.-System_Configuration_TimeSpanSecondsConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object_System_Type
 _.Lme_420:
@@ -22697,7 +22697,7 @@ System_Collections_Generic_Dictionary_2_string_int_InitArrays_int:
 	.long .Lp_41 - . -4
 	.byte 73,137,70,40,65,199,70,48,0,0,0,0,73,139,70,16,72,99,64,24,242,15,42,192,243,15,16,13,61,0,0,0
 	.byte 243,15,90,201,242,15,89,193,242,72,15,44,192,65,137,70,60,133,192,15,133,20,0,0,0,73,139,70,16,72,99,64
-	.byte 24,133,192,126,8,65,199,70,60,1,0,0,0,76,139,52,36,76,139,124,36,8,72,131,196,24,195,0,0,102,102,102
+	.byte 24,133,192,126,8,65,199,70,60,1,0,0,0,76,139,52,36,76,139,124,36,8,72,131,196,24,195,144,255,102,102,102
 	.byte 63
 
 	.size System_Collections_Generic_Dictionary_2_string_int_InitArrays_int,.-System_Collections_Generic_Dictionary_2_string_int_InitArrays_int

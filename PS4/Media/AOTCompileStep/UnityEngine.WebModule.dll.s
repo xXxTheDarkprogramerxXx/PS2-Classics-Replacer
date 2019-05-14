@@ -7060,7 +7060,7 @@ System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_G
 	.long .Lp_7 - . -4
 	.byte 72,139,248,232
 	.long .Lp_8 - . -4
-	.byte 73,139,69,64,73,139,77,32,72,99,213,57,81,24,15,102,102,102,63
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,102,102,102,63
 
 	.size System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_Generic_IEqualityComparer_1_string,.-System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_Generic_IEqualityComparer_1_string
 _.Lme_133:
@@ -16083,7 +16083,7 @@ mono_aot_file_info:
 _blob:
 blob:
 
-	.byte 12,0,1,2,0,0,0,1,3,0,1,4,0,1,4,0,0,0,6,5,6,7,8,9,10,0,0,0,0,0,0,0
+	.byte 80,0,1,2,0,0,0,1,3,0,1,4,0,1,4,0,0,0,6,5,6,7,8,9,10,0,0,0,0,0,0,0
 	.byte 0,0,0,0,0,0,0,0,0,0,2,8,8,0,0,0,3,8,8,8,0,3,7,9,10,0,0,0,0,0,1,8
 	.byte 0,1,11,0,1,11,0,0,0,0,0,0,0,1,12,0,0,0,0,0,0,0,1,13,0,0,0,2,13,14,0,2
 	.byte 15,16,0,2,17,2,0,3,18,19,19,0,4,13,20,21,20,0,1,22,0,4,23,24,25,26,0,1,27,0,1,28

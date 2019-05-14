@@ -7686,7 +7686,7 @@ UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_Playa
 	.long .Lp_222 - . -4
 	.byte 72,139,253,72,131,199,168,72,139,117,184,72,139,85,192,232
 	.long .Lp_195 - . -4
-	.byte 72,139,69,248,72,139,77,168,72,137,8,72,139,77,176,72,137,72,8,201,195,232,208,77,238,252,0,0,128,63
+	.byte 72,139,69,248,72,139,77,168,72,137,8,72,139,77,176,72,137,72,8,201,195,232,208,77,112,252,0,0,128,63
 
 	.size UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_PlayableGraph_UnityEngine_Playables_Playable,.-UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_PlayableGraph_UnityEngine_Playables_Playable
 _.Lme_15b:
@@ -11951,7 +11951,7 @@ UnityEngine_Timeline_TimeUtility__cctor:
 	.long mono_aot_UnityEngine_Timeline_got - . + 1372
 	.byte 242,15,17,0,242,15,16,5,17,0,0,0,73,139,5
 	.long mono_aot_UnityEngine_Timeline_got - . + 1588
-	.byte 242,15,17,0,72,131,196,8,195,0,141,237,181,160,247,198,176,62,224,229,17,3,0,0,0,0,155,43,161,134,155,132
+	.byte 242,15,17,0,72,131,196,8,195,0,141,237,181,160,247,198,176,62,224,229,143,3,0,0,0,0,155,43,161,134,155,132
 	.byte 6,61
 
 	.size UnityEngine_Timeline_TimeUtility__cctor,.-UnityEngine_Timeline_TimeUtility__cctor

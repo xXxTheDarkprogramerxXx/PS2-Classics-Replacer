@@ -5620,7 +5620,7 @@ Mono_Data_Tds_Protocol_Tds_GetDateTimeValue_System_Nullable_1_Mono_Data_Tds_Prot
 	.byte 190,184,0,0,0,191,70,1,0,2,232
 	.long .Lp_2 - . -4
 	.byte 190,206,0,0,0,235,239,190,182,1,0,0,235,232,190,204,1,0,0,235,225,190,60,2,0,0,235,218,190,82,2,0
-	.byte 0,235,211,243,154,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,67
+	.byte 0,235,211,0,0,0,0,0,0,0,160,236,84,3,0,0,0,0,0,0,150,67
 
 	.size Mono_Data_Tds_Protocol_Tds_GetDateTimeValue_System_Nullable_1_Mono_Data_Tds_Protocol_TdsColumnType,.-Mono_Data_Tds_Protocol_Tds_GetDateTimeValue_System_Nullable_1_Mono_Data_Tds_Protocol_TdsColumnType
 _.Lme_83:
@@ -16564,7 +16564,7 @@ System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_G
 	.long .Lp_36 - . -4
 	.byte 72,139,248,232
 	.long .Lp_37 - . -4
-	.byte 0,73,139,70,32,72,139,248,73,139,246,144,144,144,255,102,102,102,63
+	.byte 73,139,69,64,73,139,77,32,72,99,213,57,81,24,15,102,102,102,63
 
 	.size System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_Generic_IEqualityComparer_1_string,.-System_Collections_Generic_Dictionary_2_string_int_Init_int_System_Collections_Generic_IEqualityComparer_1_string
 _.Lme_213:
@@ -16596,7 +16596,7 @@ System_Collections_Generic_Dictionary_2_string_int_InitArrays_int:
 	.long .Lp_19 - . -4
 	.byte 73,137,70,40,65,199,70,48,0,0,0,0,73,139,70,16,72,99,64,24,242,15,42,192,243,15,16,13,61,0,0,0
 	.byte 243,15,90,201,242,15,89,193,242,72,15,44,192,65,137,70,60,133,192,15,133,20,0,0,0,73,139,70,16,72,99,64
-	.byte 24,133,192,126,8,65,199,70,60,1,0,0,0,76,139,52,36,76,139,124,36,8,72,131,196,24,195,72,133,102,102,102
+	.byte 24,133,192,126,8,65,199,70,60,1,0,0,0,76,139,52,36,76,139,124,36,8,72,131,196,24,195,85,150,102,102,102
 	.byte 63
 
 	.size System_Collections_Generic_Dictionary_2_string_int_InitArrays_int,.-System_Collections_Generic_Dictionary_2_string_int_InitArrays_int
@@ -16759,7 +16759,7 @@ System_Collections_Generic_Dictionary_2_string_int_Resize:
 	.byte 124,36,40,72,131,196,72,195,190,213,0,0,0,191,68,1,0,2,232
 	.long .Lp_2 - . -4
 	.byte 190,236,0,0,0,235,239,190,10,1,0,0,235,232,190,28,1,0,0,235,225,190,108,1,0,0,235,218,190,138,1,0
-	.byte 0,235,211,190,176,1,0,0,235,204,0,0,0,0,102,102,102,63
+	.byte 0,235,211,190,176,1,0,0,235,204,8,0,0,0,102,102,102,63
 
 	.size System_Collections_Generic_Dictionary_2_string_int_Resize,.-System_Collections_Generic_Dictionary_2_string_int_Resize
 _.Lme_21a:

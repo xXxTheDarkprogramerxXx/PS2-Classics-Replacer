@@ -51,9 +51,9 @@ public class Controlador : MonoBehaviour {
     private string[] scaneo;
 	public List<PS2Items> listofgames = new List<PS2Items>();
 	//path to USB0
-	public string camino = @"G:\Games\Playstation\PS2";
+	public string camino = "/usb0";//= @"G:\Games\Playstation\PS2";
 	//path to usb1
-	public string usb1 = "/usb1/PS2";
+	public string usb1 = "/usb1";
 
 	private bool Paso = true;
     private bool EnImagen = false;
@@ -211,16 +211,16 @@ public class Controlador : MonoBehaviour {
         FechaHora.text = System.DateTime.Now.AddHours(-3).ToShortTimeString() + "\n" + System.DateTime.Now.AddHours(-3).ToLongDateString();
         StartCoroutine(ActualizarFechaHora());
                         
-        try
-        {
-            FreeMountUsb();
-        }
-        catch { ;}
+       
 
 		if(Application.platform == RuntimePlatform.PS4)
-		{
-			
+		{			
 			/*Uncomment when test is sucsesfull */
+			try
+			{
+				FreeMountUsb();
+			}
+			catch(Exception ex) { txtCamino.text = "Failed to free mount usb's " + ex.Message;}
 		}
 
 		string path = @"G:\Games\Playstation\PS2";
@@ -255,10 +255,12 @@ public class Controlador : MonoBehaviour {
 
 		DirectoryInfo d = null;
 		if (typeofusb == USBType.USB0) {
+			camino = "/usb0/ps2/";
 			d = new DirectoryInfo (USBPath0);
 		}
 
 		if (typeofusb == USBType.USB1) {
+			camino = "/usb1/ps2/";
 			d = new DirectoryInfo (USBPath1);
 		}
 		if (typeofusb == USBType.None) {
@@ -429,10 +431,12 @@ public class Controlador : MonoBehaviour {
                         {
                             case ".iso":
                                 //we need to copy over the file into the data folder
-								string path = Path.GetFullPath(".")+@"\image\disc01.iso";
-								File.Copy(listofgames[Posicion].Path,Path.GetFullPath(".")+@"\image\disc01.iso",true);
+							string path =Application.dataPath +@"/image/disc01.iso";
+							txtCamino.text = "path:" + path;
+							   File.Copy(listofgames[Posicion].Path,Application.dataPath +@"/image/disc01.iso",true);
 								//and lunach second eboot
-								
+								//lol no way Unity is best
+								System.Diagnostics.Process.Start(Application.dataPath + "/theApplication.exe");
                                 break;
 						}
                     }
@@ -449,9 +453,14 @@ public class Controlador : MonoBehaviour {
                 SceneManager.LoadScene("main");
             }
 			if (firstload == false) {
-				var itemsofps21 = listofgames [Posicion];
+				try{
+					var itemsofps21 = listofgames [Posicion];
 				StartCoroutine(MostrarImagen (itemsofps21));
 				firstload = true;
+				}
+				catch(Exception ex) {
+
+				}
 			}
         }
 

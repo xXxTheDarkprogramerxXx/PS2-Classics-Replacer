@@ -3242,7 +3242,7 @@ UnityEngine_Timeline_TimelineClip_SanitizeTimeValue_double_double:
 	.long .Lp_58 - . -4
 	.byte 242,15,16,200,242,15,16,68,36,24,232
 	.long .Lp_12 - . -4
-	.byte 242,15,17,4,36,242,15,16,4,36,72,131,196,40,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+	.byte 242,15,17,4,36,242,15,16,4,36,72,131,196,40,195,36,16,233,0,0,0,0,242,15,16,68,36,16,242,65,0,0
 	.byte 0,0,0,0,0,128
 
 	.size UnityEngine_Timeline_TimelineClip_SanitizeTimeValue_double_double,.-UnityEngine_Timeline_TimelineClip_SanitizeTimeValue_double_double
@@ -3579,7 +3579,7 @@ UnityEngine_Timeline_TimelineClip__cctor:
 	.long mono_aot_UnityEngine_Timeline_got - . + 380
 	.byte 242,15,17,0,242,15,16,5,17,0,0,0,73,139,5
 	.long mono_aot_UnityEngine_Timeline_got - . + 268
-	.byte 242,15,17,0,72,131,196,8,195,0,0,0,0,0,128,132,46,65,240,246,213,2,0,0,0,0,17,17,17,17,17,17
+	.byte 242,15,17,0,72,131,196,8,195,0,0,0,0,0,128,132,46,65,0,0,0,0,0,0,0,0,17,17,17,17,17,17
 	.byte 145,63,0,0,0,0,0,0,0,0,0,0,0,0,0,64,143,64,0,0,0,0,0,0,0,0,252,169,241,210,77,98
 	.byte 80,63,0,0,0,0,0,0,0,0,0,0,160,64
 
@@ -7686,7 +7686,7 @@ UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_Playa
 	.long .Lp_222 - . -4
 	.byte 72,139,253,72,131,199,168,72,139,117,184,72,139,85,192,232
 	.long .Lp_195 - . -4
-	.byte 72,139,69,248,72,139,77,168,72,137,8,72,139,77,176,72,137,72,8,201,195,232,224,109,23,253,0,0,128,63
+	.byte 72,139,69,248,72,139,77,168,72,137,8,72,139,77,176,72,137,72,8,201,195,232,208,77,112,252,0,0,128,63
 
 	.size UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_PlayableGraph_UnityEngine_Playables_Playable,.-UnityEngine_Timeline_AnimationTrack_ApplyTrackOffset_UnityEngine_Playables_PlayableGraph_UnityEngine_Playables_Playable
 _.Lme_15b:
@@ -10501,7 +10501,7 @@ UnityEngine_Timeline_ParticleControlPlayable__ctor:
 
 	.byte 72,131,236,8,72,137,60,36,243,15,16,5,80,0,0,0,243,15,90,192,72,139,4,36,242,68,15,90,248,243,68,15
 	.byte 17,120,24,243,15,16,5,37,0,0,0,243,15,90,192,242,68,15,90,248,243,68,15,17,120,28,199,64,32,1,0,0
-	.byte 0,72,131,196,8,195,122,4,65,15,146,199,235,0,69,51,0,0,128,191,247,73,15,182,199,76,139,125,248,201,195,0
+	.byte 0,72,131,196,8,195,0,0,0,0,0,0,0,0,0,0,0,0,128,191,0,0,0,0,0,0,0,0,0,0,0,0
 	.byte 0,0,128,191
 
 	.size UnityEngine_Timeline_ParticleControlPlayable__ctor,.-UnityEngine_Timeline_ParticleControlPlayable__ctor
@@ -11241,7 +11241,7 @@ UnityEngine_Timeline_Extrapolation__cctor:
 	.long mono_aot_UnityEngine_Timeline_got - . + 1372
 	.byte 242,15,16,0,242,15,16,13,25,0,0,0,242,15,89,193,73,139,5
 	.long mono_aot_UnityEngine_Timeline_got - . + 1380
-	.byte 242,15,17,0,72,131,196,8,195,0,0,0,0,0,0,0,0,0,0,64,143,64
+	.byte 242,15,17,0,72,131,196,8,195,3,0,0,0,0,0,0,0,0,0,64,143,64
 
 	.size UnityEngine_Timeline_Extrapolation__cctor,.-UnityEngine_Timeline_Extrapolation__cctor
 _.Lme_1f2:
@@ -11951,7 +11951,7 @@ UnityEngine_Timeline_TimeUtility__cctor:
 	.long mono_aot_UnityEngine_Timeline_got - . + 1372
 	.byte 242,15,17,0,242,15,16,5,17,0,0,0,73,139,5
 	.long mono_aot_UnityEngine_Timeline_got - . + 1588
-	.byte 242,15,17,0,72,131,196,8,195,0,141,237,181,160,247,198,176,62,0,0,0,0,0,0,0,0,155,43,161,134,155,132
+	.byte 242,15,17,0,72,131,196,8,195,0,141,237,181,160,247,198,176,62,224,229,143,3,0,0,0,0,155,43,161,134,155,132
 	.byte 6,61
 
 	.size UnityEngine_Timeline_TimeUtility__cctor,.-UnityEngine_Timeline_TimeUtility__cctor
@@ -14099,7 +14099,7 @@ System_Collections_Generic_Dictionary_2_UnityEngine_Timeline_TrackAsset_UnityEng
 	.long .Lp_5 - . -4
 	.byte 72,139,248,232
 	.long .Lp_6 - . -4
-	.byte 117,0,72,139,69,16,72,139,64,16,73,139,13,0,0,102,102,102,63
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,102,102,102,63
 
 	.size System_Collections_Generic_Dictionary_2_UnityEngine_Timeline_TrackAsset_UnityEngine_Timeline_TimelinePlayable_ConnectionCache_Init_int_System_Collections_Generic_IEqualityComparer_1_UnityEngine_Timeline_TrackAsset,.-System_Collections_Generic_Dictionary_2_UnityEngine_Timeline_TrackAsset_UnityEngine_Timeline_TimelinePlayable_ConnectionCache_Init_int_System_Collections_Generic_IEqualityComparer_1_UnityEngine_Timeline_TrackAsset
 _.Lme_284:
